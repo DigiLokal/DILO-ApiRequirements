@@ -1,0 +1,23 @@
+{
+  "services": [
+    {
+      "serviceId": "12345",
+      "title": "Photo Editing",
+      "description": "Professional photo editing service",
+      "category": "Graphics & Design",
+      "price": 500000,
+      "platform": "Instagram",
+      "photoUrl": "https://example.com/photo-editing.jpg"
+    },
+    {
+      "serviceId": "67890",
+      "title": "Logo Design",
+      "description": "Custom logo design service",
+      "category": "Graphics & Design",
+      "price": 1000000,
+      "platform": "Multiple Platforms",
+      "photoUrl": "https://example.com/logo-design.jpg"
+    },
+    ...
+  ]
+}
