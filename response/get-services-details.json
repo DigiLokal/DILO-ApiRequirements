@@ -1,32 +1,39 @@
 {
-  "campaignId": "12345",
-  "title": "Make IG content for endorse",
-  "description": "Create 4 IG story posts reviewing my food",
-  "postedBy": "UMKM Owner",
-  "location": "Jakarta, Indonesia",
-  "earningPotential": 1000000,
-  "deadline": "2022-02-22",
-  "rateCardOptions": [
-    {
-      "rateCardId": "111",
-      "title": "Instagram Story Endorse",
-      "description": "Create an Instagram story endorsing the product",
-      "price": 500000
+  "service_id": "12345",
+  "title": "Logo Design",
+  "description": "I will create a professional logo design for your business.",
+  "category": "Design",
+  "platform": "Freelance",
+  "price": 50.00,
+  "photo_url": "https://example.com/logo-design.jpg",
+  "rate_card": {
+    "instagram": {
+      "story": 20.00,
+      "post": 30.00
     },
-    {
-      "rateCardId": "222",
-      "title": "IG Live",
-      "description": "Host a live session featuring the product",
-      "price": 800000
+    "facebook": {
+      "post": 25.00,
+      "video": 40.00
     },
-    {
-      "rateCardId": "333",
-      "title": "Post to Feed/Reels",
-      "description": "Create a post on Instagram feed or reels",
-      "price": 1000000
+    "twitter": {
+      "tweet": 15.00
     }
-  ],
-  "termsAndConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-  "talentObligation": "Review on time",
-  "visitInformation": "UMKM restaurant, Jl. ABC No. 123, Jakarta"
+  },
+  "rating": 4.5,
+  "reviews": [
+    {
+      "user_id": "user123",
+      "username": "john_doe",
+      "rating": 4.0,
+      "review": "Great service. Highly recommended.",
+      "posted_at": "2023-05-20T10:30:00Z"
+    },
+    {
+      "user_id": "user456",
+      "username": "jane_smith",
+      "rating": 5.0,
+      "review": "Amazing work! I'm very satisfied.",
+      "posted_at": "2023-05-22T14:45:00Z"
+    }
+  ]
 }
