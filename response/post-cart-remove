@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "message": "Service removed from cart successfully",
+  "cart_items": [
+    {
+      "service_id": "67890",
+      "service_name": "Logo Design",
+      "price": 100.0,
+      "subtotal": 100.0,
+      "photo_url": "https://example.com/logo_design.jpg"
+    }
+  ],
+  "total_items_count": 1,
+  "total_amount": 100.0
+}
