@@ -1,0 +1,32 @@
+{
+  "campaignId": "12345",
+  "title": "Make IG content for endorse",
+  "description": "Create 4 IG story posts reviewing my food",
+  "postedBy": "UMKM Owner",
+  "location": "Jakarta, Indonesia",
+  "earningPotential": 1000000,
+  "deadline": "2022-02-22",
+  "rateCardOptions": [
+    {
+      "rateCardId": "111",
+      "title": "Instagram Story Endorse",
+      "description": "Create an Instagram story endorsing the product",
+      "price": 500000
+    },
+    {
+      "rateCardId": "222",
+      "title": "IG Live",
+      "description": "Host a live session featuring the product",
+      "price": 800000
+    },
+    {
+      "rateCardId": "333",
+      "title": "Post to Feed/Reels",
+      "description": "Create a post on Instagram feed or reels",
+      "price": 1000000
+    }
+  ],
+  "termsAndConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+  "talentObligation": "Review on time",
+  "visitInformation": "UMKM restaurant, Jl. ABC No. 123, Jakarta"
+}
