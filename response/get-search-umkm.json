@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "data": {
+    "results": [
+      {
+        "serviceId": "12345",
+        "serviceName": "Product Photo Service",
+        "serviceCategory": "Photography",
+        "serviceDescription": "Professional product photography for your business",
+        "servicePrice": 50.0,
+        "serviceRating": 4.5,
+        "serviceReviews": 10,
+        "serviceImage": "https://example.com/service/image.jpg"
+      },
+      {
+        "serviceId": "67890",
+        "serviceName": "Logo Design Service",
+        "serviceCategory": "Design",
+        "serviceDescription": "Custom logo design for your brand",
+        "servicePrice": 100.0,
+        "serviceRating": 4.8,
+        "serviceReviews": 15,
+        "serviceImage": "https://example.com/service/image.jpg"
+      }
+    ]
+  }
+}
