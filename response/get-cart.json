@@ -1,0 +1,20 @@
+{
+  "cart_items": [
+    {
+      "service_id": "12345",
+      "service_name": "Photo Editing",
+      "price": 50.0,
+      "subtotal": 50.0,
+      "photo_url": "https://example.com/photo_editing.jpg"
+    },
+    {
+      "service_id": "67890",
+      "service_name": "Logo Designing",
+      "price": 100.0,
+      "subtotal": 100.0,
+      "photo_url": "https://example.com/logo_designing.jpg"
+    }
+  ],
+  "total_items_count": 2,
+  "total_amount": 150.0
+}
