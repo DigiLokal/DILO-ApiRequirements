@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "message": "Service added to cart successfully",
+  "cart_items": [
+    {
+      "service_id": "12345",
+      "service_name": "Photo Editing",
+      "price": 50.0,
+      "subtotal": 50.0,
+      "photo_url": "https://example.com/photo_editing.jpg"
+    }
+  ],
+  "total_items_count": 1,
+  "total_amount": 50.0
+}
