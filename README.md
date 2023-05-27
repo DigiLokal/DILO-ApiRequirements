@@ -157,7 +157,7 @@ Everything here is still temporary, changes are expected.
 
 - Parameters
 
-  - `service_id` "12345",
+  - `service_id` as string,
 
 - Response
   - [Sample](https://github.com/DigiLokal/DILO-ApiRequirements/blob/main/response/post-cart-add)
@@ -179,7 +179,7 @@ Everything here is still temporary, changes are expected.
 
 - Parameters
 
-  - `service_id` "12345",
+  - `service_id` as string,
 
 - Response
   - [Sample](https://github.com/DigiLokal/DILO-ApiRequirements/blob/main/response/post-cart-remove)
