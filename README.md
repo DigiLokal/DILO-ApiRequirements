@@ -1,5 +1,5 @@
 # Api Requirements
-The API requirements for DILO project.
+The API requirements for DILO project (not done).
 
 Some samples will be given later.
 
@@ -184,8 +184,47 @@ Everything here is still temporary, changes are expected.
 - Response
   - [Sample](https://github.com/DigiLokal/DILO-ApiRequirements/blob/main/response/post-cart-remove)
 
-# UMKM/SME Path
+# The 'Full' List
 
-# Digital Freelance Path
+- User Management APIs:
 
-# Influencer Path
+  - Profile APIs:
+  - Get user profile: GET /profile
+  - Update user profile: PUT /profile
+
+- UMKM Path APIs:
+  - Get UMKM home page content: GET /umkm/home
+  - Search services: GET /umkm/services/search
+  - Get detailed service information: GET /umkm/services/<service_id>
+
+  - Post Campaign API:
+  - Post Campaign (UMKM): POST /umkm/campaigns
+  - Post Services (Freelance/Influencer): POST /umkm/campaigns
+
+- Influencer APIs:
+  - Get influencer list: GET /influencers
+  - Get detailed influencer information: GET /influencers/<influencer_id>
+  - Get influencer rate cards: GET /influencers/<influencer_id>/rate-cards
+  - ?Get influencer reviews: GET /influencers/<influencer_id>/reviews
+
+- Freelancer APIs:
+  - Get freelancer list: GET /freelancers
+  - Get detailed freelancer information: GET /freelancers/<freelancer_id>
+  - Get freelancer rate cards: GET /freelancers/<freelancer_id>/rate-cards
+  - ?Get freelancer reviews: GET /freelancers/<freelancer_id>/reviews
+
+- Order Management APIs:
+  - Add service to cart: POST /cart/add
+  - Get cart items: GET /cart
+  - Remove item from cart: DELETE /cart/remove
+  - Checkout: POST /umkm/checkout
+  - Get order details: GET /orders/<order_id>
+
+- Chat APIs (?):
+  - ?Send message: POST /chats/<recipient_id>/messages
+  - ?Get messages: GET /chats/<recipient_id>/messages
+  - ?Mark message as read: PUT /chats/<recipient_id>/messages/<message_id>/read
+
+- Payment APIs:
+  -
+
